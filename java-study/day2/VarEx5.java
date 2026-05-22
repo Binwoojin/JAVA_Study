@@ -21,5 +21,15 @@ public class VarEx5 {
 		
 		System.out.println("5월 25일\n부처님 오시는 날\t\'연등 행사\'");
 		
+		System.out.println("-----------------------");
+		// boolean : 참, 거짓(논리값)을 저장할 수 있는 자료형
+		// true, false 키워드로 표현
+		
+		boolean bl1 = true;
+		boolean bl2 = false;
+		
+		System.out.println("bl1 : " + bl1);
+		System.out.println("bl2 : " + bl2);
+		
 	}
 }
