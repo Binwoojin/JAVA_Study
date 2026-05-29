@@ -6,7 +6,7 @@ public class ArrayQuiz8 {
         Scanner sc = new Scanner(System.in);
         int[] score = new int[10];
         int total = 0;
-        int avg = 0;
+        double avg = 0;
 
         // 국어 성적 입력 받아서 score 배열에 입력(10변 입력받아야함)
         for(int i = 0; i < score.length; i++) {
@@ -15,7 +15,7 @@ public class ArrayQuiz8 {
             total += score[i]; 
         }
 
-        avg = total / score.length;
+        avg = (double)total / score.length; // 소숫점 표현을 위해 avg를 double형으로 선언 후 total를 double로 형변환
 
         System.out.println("총점 : " + total);
         System.out.println("평균 : " + avg);
